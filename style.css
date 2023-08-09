@@ -1,8 +1,12 @@
-body{
-    background-color: rgb(22, 22, 22);
-    color:deeppink;
-}
-
-div{
-    color: orange;
-}
+.pai {
+   display: flex;
+   background-color: rgb(53, 53, 53);
+   flex-direction: column;
+  }
+  
+  .pai > div {
+    background-color:pink;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
